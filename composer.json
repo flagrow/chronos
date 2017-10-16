@@ -1,0 +1,45 @@
+{
+    "name": "flagrow/chronos",
+    "description": "Runs crons for your Flarum forum.",
+    "keywords": [
+        "cron",
+        "flarum",
+        "flagrow",
+        "cronjob"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniël Klabbers",
+            "email": "daniel@klabbers.email",
+            "homepage": "http://luceos.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/flagrow/chronos/issues",
+        "source": "https://github.com/flagrow/chronos"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.7",
+        "flagrow/console": "~0.2.0"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Flagrow Chronos",
+            "icon": {
+                "name": "clock-o",
+                "backgroundColor": "#f4f4f4",
+                "color": "#5f4bb6"
+            }
+        },
+        "flagrow": {
+            "discuss": ""
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Flagrow\\Chronos\\": "src/"
+        }
+    }
+}
